@@ -30,3 +30,4 @@ if has('mouse')
 endif
 
 au BufNewFile,BufRead *.less set filetype=less
+
