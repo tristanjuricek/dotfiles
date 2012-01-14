@@ -7,7 +7,8 @@ set expandtab
 set number
 set textwidth=80
 
-set statusline=%y\ [%l/%L\ %c]\ %f%M%r
+" commenting out
+"set statusline=%y\ [%l/%L\ %c]\ %f%M%r
 set laststatus=2
 set colorcolumn=80
 
@@ -31,3 +32,4 @@ endif
 
 au BufNewFile,BufRead *.less set filetype=less
 
+call pathogen#infect()
